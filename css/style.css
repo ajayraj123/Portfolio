@@ -132,7 +132,16 @@ b, strong { font-weight: bold; }
     text-align: center;
 }
 
+.blog-center{
+    margin: 0 auto; 
+    float: none !important;
+    display: block !important;
+}
 
+.blog-center p{
+    word-break: break-word;
+    word-wrap: break-word;
+}
 
 /*--------------------------------------------------------------------------
 	3. Pages
