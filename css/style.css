@@ -125,7 +125,12 @@ b, strong { font-weight: bold; }
 .background-color-white { background: white; }
 
 
-
+/*--------------------------------------------------------------------------
+	Bootstrap
+--------------------------------------------------------------------------*/
+.text-centered{
+    text-align: center;
+}
 
 
 
