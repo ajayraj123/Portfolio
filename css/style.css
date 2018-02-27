@@ -32,8 +32,8 @@
 
 body {
 	color: #111;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-family:"Calibri","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	line-height: 28px;
 	-webkit-font-smoothing: antialiased;
 	/* Fix for webkit rendering */
@@ -141,6 +141,10 @@ b, strong { font-weight: bold; }
 .blog-center p{
     word-break: break-word;
     word-wrap: break-word;
+}
+
+.cd-headline i{
+    font-style: inherit;
 }
 
 /*--------------------------------------------------------------------------
@@ -736,17 +740,17 @@ b, strong { font-weight: bold; }
 
 		#works .item h3 {
 			color: #555;
-			font-size: 12px;
-			line-height: 22px;
+			font-size: 20px;
+			line-height: 32px;
 			font-weight: bold;
 		}
 
 		#works a.permalink:hover h3 { color: #111; }
 
 	#works .item span.category {
-		color: #ccc;
+		color: #8d8d8d;
 		display: block;
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 18px;
 		margin-bottom: 10px;
 	}
@@ -1790,3 +1794,13 @@ b, strong { font-weight: bold; }
 		}
 
 	}
+
+
+	/*---------------------------------------------------
+			4.3 Custom
+	---------------------------------------------------*/
+
+.auhtor-name {
+        float: right;
+         margin-right: 32px;
+}
