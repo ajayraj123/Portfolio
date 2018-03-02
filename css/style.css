@@ -1812,3 +1812,17 @@ b, strong { font-weight: bold; }
         float: right;
          margin-right: 32px;
 }
+
+.linkarrow{
+    font-size:12px !important;
+    padding-left:5px;
+}
+
+.float-right{
+    float:right !important;
+}
+
+.articlecontainer{
+    height:162px;
+    overflow: hidden
+}
