@@ -30,9 +30,20 @@
 	1. Body
 --------------------------------------------------------------------------*/
 
+/*
+@font-face {
+  font-family: 'chivo';
+  src:local('../fonts/Chivo-Regular.ttf'), url('https://fonts.googleapis.com/css?family=Chivo') format('truetype');
+}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Chivo:400,400i,700,900');
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+
 body {
 	color: #111;
-	font-family:"Calibri","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:"Chivo","Calibri","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 28px;
 	-webkit-font-smoothing: antialiased;
@@ -62,9 +73,19 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-weight: bold; 
-     margin-top:20px;  }
+h6 { 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold; 
+     margin-top:20px; 
+    margin-bottom:5px;
+}
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
 
 
 /* Links */
@@ -113,6 +134,7 @@ b, strong { font-weight: bold; }
 	padding-bottom: 4px;
 	border-bottom: 1px solid #22eedd;
 }
+
 
 
 
@@ -625,7 +647,7 @@ b, strong { font-weight: bold; }
 	
 	/* Recent Posts */
 	.box-recent h3 {
-		font-size: 16px;
+/*		font-size: 16px;*/
 		line-height: 26px;
 		padding: 30px 0 20px 0;
 	}
@@ -704,7 +726,7 @@ b, strong { font-weight: bold; }
 	#about h2 { padding-top: 30px; }
 
 	#about .services h3 {
-		font-size: 32px;
+/*		font-size: 32px;*/
 		line-height: 42px;
 	}
 
@@ -746,9 +768,10 @@ b, strong { font-weight: bold; }
 
 		#works .item h3 {
 			color: #555;
-			font-size: 20px;
-			line-height: 32px;
+/*			font-size: 18px;*/
+			line-height: 30px;
 			font-weight: bold;
+            margin-top:10px;
 		}
 
 		#works a.permalink:hover h3 { color: #111; }
@@ -858,13 +881,14 @@ b, strong { font-weight: bold; }
 		}
 			
 			#works.single .box-info p.project-desc {
-				color: #ddd; 
+				color: #8a8a8a; 
 				font-weight: bold; 
 				margin-top: 0; 
+                margin-bottom:10px;
 			}
 
 			#works.single .box-info h4 {
-				font-size: 11px; 
+				font-size: 13px; 
 				line-height: 21px; 
 				text-transform: uppercase; 
 				letter-spacing: 3px; 
@@ -877,7 +901,7 @@ b, strong { font-weight: bold; }
 */
 
 			#works.single .box-info p {
-				margin-top: 15px; 
+				margin-top: 10px; 
 			}
 
 			@media screen and (max-width: 767px) {
@@ -1374,7 +1398,7 @@ b, strong { font-weight: bold; }
 
 			section#contact .box-contact h3 {
 				color: #22eedd;
-				font-size: 14px;
+/*				font-size: 14px;*/
 				line-height: 24px;
 				font-weight: normal;
 				margin-bottom: 15px;
