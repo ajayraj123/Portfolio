@@ -1894,3 +1894,19 @@ b, strong { font-weight: bold; }
 #works .thumb-img:hover .view-button{
         top: 40%;
 }
+
+
+.scrollTop {
+  position: fixed;
+  right: 2%;
+  bottom: 10px;
+  background-color: #22eedd;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
