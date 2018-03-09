@@ -1895,7 +1895,9 @@ b, strong { font-weight: bold; }
         top: 40%;
 }
 
-
+.imgHeading{
+    text-align: center
+}
 .scrollTop {
   position: fixed;
   right: 2%;
@@ -1909,4 +1911,30 @@ b, strong { font-weight: bold; }
 .scrollTop a {
   font-size: 18px;
   color: #fff;
+}
+
+
+
+
+
+
+
+/*
+------------------------
+Media Query
+------------------------*/
+
+
+@media screen and (min-width:667px) and (max-width: 1024px) { 
+.articlecontainer{
+    height: 128px;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width:768px) { 
+.articlecontainer{
+    height: auto;
+  
+}
 }
