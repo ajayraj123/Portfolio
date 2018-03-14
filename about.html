@@ -163,8 +163,8 @@
 			<div class="container">
 				
 					<div class="item">
-						<div class="desktop-3 offset-2 tablet-6 columns">
-							<img src="images/about_services01.png" alt="">
+						<div class="desktop-3 offset-3 tablet-6 columns">
+							<div class="circle discover">discover</div>
 						</div><!-- // .desktop-3 -->
 
 						<div class="desktop-6 tablet-6 columns designprocess">
@@ -180,8 +180,8 @@
 						<div class="clear"></div>
 					</div><!-- // .item -->
                 <div class="item">
-                    <div class="desktop-3 offset-2 tablet-6 columns">
-							<img src="images/about_services01.png" alt="">
+                    <div class="desktop-3 offset-3 tablet-6 columns">
+							<div class="circle define">Define</div>
 						</div><!-- // .desktop-3 -->
 
                       <div class="desktop-6 tablet-6 columns designprocess">
@@ -204,8 +204,8 @@
 					
 					<!-- // .item -->
                    <div class="item">
-                       <div class="desktop-3 offset-2 tablet-6 columns">
-							<img src="images/about_services01.png" alt="">
+                       <div class="desktop-3 offset-3 tablet-6 columns">
+							<div class="circle design">Design</div>
 						</div><!-- // .desktop-3 -->
 					  <div class="desktop-6 tablet-6 columns designprocess">
 							<h4>Design</h4>
@@ -219,11 +219,28 @@
 
 						<div class="clear"></div>
 					</div>
+  
+<!--
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 614 30" style="enable-background:new 0 0 614 53;transform-origin: 0px !important;" xml:space="preserve">
+<line class="st1" x1="200" y1="30" x2="200" y2="0"></line>
+</svg>
 
+
+-->
+<!--
+                
+                   <div class="">
+                            <div class="desktop-3 offset-4 tablet-6 columns">
+						 <div class="linkbox"></div>
+                       </div> // .desktop-3 					  
+
+						<div class="clear"></div>
+					</div>
+-->
 
                         <div class="item">
-                            <div class="desktop-3 offset-2 tablet-6 columns">
-							<img src="images/about_services01.png" alt="">
+                            <div class="desktop-3 offset-3 tablet-6 columns">
+							<div class="circle test">Test</div>
 						</div><!-- // .desktop-3 -->
 					  <div class="desktop-6 tablet-6 columns designprocess">
 							<h4>Test</h4>
@@ -236,9 +253,49 @@
 						<div class="clear"></div>
 					</div>
 
-					
+					   <div class="item">
+                            <div class="desktop-3 offset-3 tablet-6 columns">
+							<div class="circle deliver">Deliver</div>
+						</div><!-- // .desktop-3 -->
+					  <div class="desktop-6 tablet-6 columns designprocess">
+							<h4>Deliver</h4>
+							<ul>
+                                <li>Style Guides</li>
+                                <li>Interactive Prototype</li>
+                                <li>Visual Mockup</li>  
+                            </ul>
+						</div><!-- // .desktop-6 -->
 
+						<div class="clear"></div>
+					</div>
+                    
+                     <div class="desktop-12 tablet-6 columns">
+                       <h2>Tools of the Trade</h4>
+                       </div> 
+                	<div class="clear"></div>
+                <div class="item toolslist">
+                      
+                            <div class="desktop-5 tablet-6 columns"> 
+                                <ul>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
+                                <li>Sketch</li>
+                               <li>Experience Design</li>
+                                <li>Balsamiq</li>
+                            </ul>
+						    </div><!-- // .desktop-3 -->
+					  <div class="desktop-5 tablet-6 columns">							
+							<ul>
+                                <li>JustinMind</li>
+                                <li>Protopie</li>
+                                <li>XMind</li>
+                                <li>HTML5</li>  
+                                <li>CSS3</li>  
+                            </ul>
+						</div><!-- // .desktop-6 -->
 
+						<div class="clear"></div>
+					</div>
 					
 
 			</div><!-- // .container -->
@@ -288,11 +345,15 @@
     
     <script>
         window.sr = ScrollReveal({ reset: true });
-        sr.reveal('img', { 
+        sr.reveal('.circle', { 
                  
                   duration: 1000
                   });
         sr.reveal('.designprocess', { 
+                 
+                  duration: 1000
+                  });
+         sr.reveal('.toolslist ul li', { 
                  
                   duration: 1000
                   });
