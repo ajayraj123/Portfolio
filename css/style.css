@@ -362,9 +362,9 @@ b, strong { font-weight: bold; }
 
 	.page p.page-desc {
 		color: #222;
-		font-family: 'Roboto Slab', Georgia, serif;
-		font-size: 34px;
-		line-height: 60px;
+		font-family: 'Chiro', Georgia, serif;
+		font-size: 24px;
+		line-height: 40px;
 		font-weight: 300; 
 		margin-top: 30px;
 		margin-bottom: 50px;
@@ -372,8 +372,8 @@ b, strong { font-weight: bold; }
 
 		@media screen and (max-width: 767px) { 
 			.page p.page-desc {
-				font-size: 24px;
-				line-height: 42px;
+				font-size: 20px;
+				line-height: 38px;
 			}
 		}
 
@@ -1943,6 +1943,11 @@ b, strong { font-weight: bold; }
 .deliver{
      background-color: #009fe3; 
 }
+.profile{
+     background-color: #009fe3;
+        
+      margin: 25px auto 0px;
+}
 
 
 .linkbox{
@@ -1960,6 +1965,7 @@ b, strong { font-weight: bold; }
 }
 .toolslist li{
     color:#fff !important;
+    line-height:40px;
 }
 /*svg*/
 
@@ -1988,8 +1994,30 @@ animation: draw2 3s linear 2s forwards;
 
 /*svg*/
 
+.page p.profiledesc{
+    margin-bottom:20px;
+}
 
+/*Icon*/
 
+.inline-socicon {
+    font-size: 24px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    margin-right:10px;
+    border: 1px solid #E8BA00;
+    color: #E8BA00;
+}
+
+.processhead{
+    margin:100px 0 30px 0;
+}
 /*
 ------------------------
 Media Query
@@ -2007,5 +2035,22 @@ Media Query
 .articlecontainer{
     height: auto;
   
+}
+}
+
+@media screen and (max-width: 767px){
+    .designprocess, .profilehead, .profiledesc, .socialprofile{
+        text-align: center;
+    }
+    .designprocess ul li{
+            font-size: 16px;
+            line-height: 30px;
+    }
+    .processhead{
+    margin:30px 0 30px 0;
+      }
+    #about .services h4 {
+    margin-top: 20px;
+    margin: 0 auto 20px;
 }
 }
