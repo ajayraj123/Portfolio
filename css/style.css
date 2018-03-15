@@ -724,7 +724,10 @@ b, strong { font-weight: bold; }
 	---------------------------------------------------*/
 
 	#about h2 { padding-top: 30px; }
-
+    
+    #about ul li{
+           list-style: none;
+         }
 	#about .services h3 {
 /*		font-size: 32px;*/
 		line-height: 42px;
