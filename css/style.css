@@ -2116,7 +2116,19 @@ animation: draw2 3s linear 2s forwards;
   position: absolute;
   opacity: 0;
   top: -1px;
-  right: -20px;
+  right: -40px;
+  transition: 0.5s;
+  color:#ffffff;
+}
+
+.previous-btn.left span:before{
+     content: '\00ab';
+    left: -40px;
+   font-size:20px;
+  position: absolute;
+  opacity: 0;
+  top: -1px;
+  
   transition: 0.5s;
   color:#ffffff;
 }
@@ -2125,9 +2137,17 @@ animation: draw2 3s linear 2s forwards;
   padding-right: 25px;
 }
 
+.previous-btn:hover span {
+  padding-left: 5px;
+}
 .next-btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.previous-btn:hover span:before {
+  opacity: 1;
+  left: -10px;
 }
 
 .same-width-btn{
