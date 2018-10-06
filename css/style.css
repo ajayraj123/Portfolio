@@ -2093,14 +2093,14 @@ animation: draw2 3s linear 2s forwards;
 
 .btn-outline{
     border:2px solid #22eedd !important;
-    color: #22eedd;
-    background: #ffffff;
+    color: #22eedd !important;
+    background: #ffffff !important;
 }
 
 .btn-outline:hover{
-    border:2px solid #22eedd;
-    color: #ffffff;
-    background: #22eedd;
+    border:2px solid #22eedd !important;
+    color: #ffffff !important;
+    background: #22eedd !important;
 }
 
 .next-btn span,.previous-btn span {
