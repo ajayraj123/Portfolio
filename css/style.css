@@ -2090,6 +2090,50 @@ animation: draw2 3s linear 2s forwards;
 .sideborder:after{
     right:0
 }
+
+.btn-outline{
+    border:2px solid #22eedd !important;
+    color: #22eedd;
+    background: #ffffff;
+}
+
+.btn-outline:hover{
+    border:2px solid #22eedd;
+    color: #ffffff;
+    background: #22eedd;
+}
+
+.next-btn span,.previous-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.next-btn span:after{
+  content: '\00bb';
+  font-size:20px;
+  position: absolute;
+  opacity: 0;
+  top: -1px;
+  right: -20px;
+  transition: 0.5s;
+  color:#ffffff;
+}
+
+.next-btn:hover span {
+  padding-right: 25px;
+}
+
+.next-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.same-width-btn{
+    width:108px;
+}
+
 /*
 
 
