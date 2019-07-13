@@ -2168,7 +2168,6 @@ animation: draw2 3s linear 2s forwards;
   top: 10px;
   background-color: #454545;
   padding: 20px;
-  opacity: 0;
   transition: all 0.4s ease-in-out 0s;
 }
 
