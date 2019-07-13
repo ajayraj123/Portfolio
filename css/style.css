@@ -2176,6 +2176,14 @@ animation: draw2 3s linear 2s forwards;
   color: #fff;
 }
 
+.pageNav{
+
+	position: fixed;
+    background: white;
+    bottom: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
 /*
 .img-effect::before,img-effect::after {
 box-sizing: inherit;
