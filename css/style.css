@@ -2162,6 +2162,21 @@ animation: draw2 3s linear 2s forwards;
     box-shadow: 3px 5px #ccc;
 }
 
+.goBack {
+  position: fixed;
+  left: 2%;
+  top: 10px;
+  background-color: #454545;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.goBack a {
+  font-size: 18px;
+  color: #fff;
+}
+
 /*
 .img-effect::before,img-effect::after {
 box-sizing: inherit;
