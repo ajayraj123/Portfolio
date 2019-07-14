@@ -170,6 +170,15 @@ b, strong { font-weight: bold; }
     font-style: inherit;
 }
 
+
+/*--------------------------------------------------------------------------
+	Helper
+--------------------------------------------------------------------------*/
+
+.pt45{
+	padding-top: 45%;
+}
+
 /*--------------------------------------------------------------------------
 	3. Pages
 --------------------------------------------------------------------------*/
@@ -2192,6 +2201,10 @@ background: repeating-linear-gradient(-45deg, #ea1c1c, #c72f74 1px, transparent 
 .centerheading{
 	margin-bottom: 40px;
 	text-align: center;
+}
+
+.instapost span:hover{
+color:#22eedd;
 }
 /*
 .img-effect::before,img-effect::after {
