@@ -2192,6 +2192,7 @@ background: repeating-linear-gradient(-45deg, #ea1c1c, #c72f74 1px, transparent 
 }
 
 .pageNav{
+	z-index:999;
 	position: fixed !important;
     background: white;
     bottom: 0px;
@@ -2276,6 +2277,9 @@ Media Query
 @media screen and (max-width:767px) { 
 #Backbtn{
 	display:none;
+}
+.scrollTop{
+	bottom:80px;
 }
 }
 
