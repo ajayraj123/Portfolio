@@ -1969,6 +1969,7 @@ b, strong { font-weight: bold; }
 
 .toolslist{
     padding:30px;
+    margin-top:30px;
      background-color: #009fe3; 
 }
 .toolslist li{
@@ -2029,7 +2030,7 @@ animation: draw2 3s linear 2s forwards;
 
 .borderedcontainer{
     height: 150px;
-    background: #e9e9e9;
+   /* background: #e9e9e9;*/
     padding: 20px;
     position: relative;
     margin: 50px 0 0 0
@@ -2075,7 +2076,7 @@ animation: draw2 3s linear 2s forwards;
     position: absolute;
     display: block;
     height: 100%;
-    width: 50px;
+    width: 35px;
     background: #009fe3;
     background: repeating-linear-gradient(-45deg, #009fe3, #009fe3 1px, transparent 1px, transparent 4px);
     -webkit-backface-visibility: hidden;
@@ -2083,6 +2084,10 @@ animation: draw2 3s linear 2s forwards;
     border-bottom: 0;
     top:0;
     
+}
+
+.border-red:before, .border-red:after{
+background: repeating-linear-gradient(-45deg, #ea1c1c, #c72f74 1px, transparent 1px, transparent 4px) !important;
 }
 
 .sideborder:before{
@@ -2165,10 +2170,10 @@ animation: draw2 3s linear 2s forwards;
 
 .goBack {
   position: fixed;
-  left: 2%;
-  top: 10px;
-  background-color: #454545;
-  padding: 20px;
+  left: 20px;
+  top: 20px;
+  /*background-color: #454545;
+  padding: 20px;*/
   transition: all 0.4s ease-in-out 0s;
 }
 
