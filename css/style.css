@@ -2259,6 +2259,13 @@ Media Query
 }
 }
 
+
+@media screen and (max-width:767px) { 
+#Backbtn{
+	display:none;
+}
+}
+
 @media screen and (max-width: 767px) and (min-width: 480px){
 .container {
     width: 600px;
