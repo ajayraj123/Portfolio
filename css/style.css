@@ -2175,6 +2175,7 @@ background: repeating-linear-gradient(-45deg, #ea1c1c, #c72f74 1px, transparent 
     border-radius: 30px;
     border-style: dashed;
     box-shadow: 3px 5px #ccc;
+        margin-bottom: 0px !important
 }
 
 .goBack {
