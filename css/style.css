@@ -2208,6 +2208,15 @@ background: repeating-linear-gradient(-45deg, #ea1c1c, #c72f74 1px, transparent 
 .instapost span:hover{
 color:#22eedd;
 }
+
+.socialprofile img{
+    width: 34px;
+    padding: 10px;
+    border: 1px solid;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
 /*
 .img-effect::before,img-effect::after {
 box-sizing: inherit;
