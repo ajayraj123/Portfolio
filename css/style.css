@@ -2217,6 +2217,11 @@ color:#22eedd;
     border-radius: 5px;
 }
 
+.links{
+	text-decoration: underline;
+
+    color: #009fe3 !important;
+}
 /*
 .img-effect::before,img-effect::after {
 box-sizing: inherit;
