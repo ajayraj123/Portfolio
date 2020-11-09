@@ -2222,6 +2222,13 @@ color:#22eedd;
 
     color: #009fe3 !important;
 }
+
+.Bullet li{
+	list-style-type: disc;
+	list-style-position: inside;
+    padding-left: 20px;
+}
+}
 /*
 .img-effect::before,img-effect::after {
 box-sizing: inherit;
