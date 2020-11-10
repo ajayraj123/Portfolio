@@ -2191,6 +2191,9 @@ background: repeating-linear-gradient(-45deg, #ea1c1c, #c72f74 1px, transparent 
   font-size: 18px;
   color: #fff;
 }
+.imgBorder{
+	border: 1px solid #80808030;
+}
 
 .pageNav{
 	z-index:999;
